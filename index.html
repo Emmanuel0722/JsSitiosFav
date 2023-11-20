@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JsSitiosFav</title>
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+	<!-- HEADER O CABECERA DE LA PAGINA PRINCIPAL -->
+
+	<header class="navbar navbar-dark bg-dark">
+		<nav class="container">
+			<a class="navbar-brand" href="https://github.com/Emmanuel0722" target="_blank">JsSitiosFav</a>
+		</nav>
+	</header>
+	<main class="container">
+		<hr>
+
+		<!-- ESTA ES LA ESTRUCTURA QUE TE PERMITE AGREGAR TUS PAGINAS WEB FAVORITAS -->
+
+		<div class="d-flex justify-content-center ">
+			<form id="formSite" class="bg-secondary col-md-8 text-center p-5 rounded">
+				<h1 class="text-white">Tus Sitios Web Favoritos</h1>
+				<span class="text-white">Nombre del Sitio</span>
+				<input class="form-control mb-4" type="text" id="nameSite" placeholder="Nombre del sitio" autofocus autocomplete="off" autocapitalize="on" />
+				
+				<span class="text-white">URL del Sitio</span>
+				<input class="form-control mb-4" type="text" id="url" placeholder="URL del sitio" autocomplete="off" />
+
+				<input type="submit" class="btn btn-info col-md-7" value="Guarda tu Sitio Favorito">
+			</form>
+		</div>
+		
+		<!-- EN ESTA PARTE DEL PROGRAMA SE MOSTRARAN TUS SITIOS FAVORITOS -->
+
+		<div id="listSite" class="container d-block mt-4" style="height: 400px; text-align: -webkit-center; overflow-y: auto;" ></div>
+
+	</div>
+		<hr>
+	</main>
+
+	<!-- FOOTER DE LA PAGINA PRINCIPAL -->
+
+	<footer class="navbar navbar-dark bg-dark fixed-bottom" >
+		<nav class="container d-flex justify-content-end">
+			<a class="navbar-brand" href="https://github.com/Emmanuel0722" target="_blank" >Emmanuel Acosta</a>
+		</nav>
+	</footer>
+
+	<script src="index.js"></script>
+
+</body>
+</html>
